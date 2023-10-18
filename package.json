@@ -1,0 +1,25 @@
+{
+  "name": "badtime-stories-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/index.js"
+  },
+  "keywords": [
+    "node",
+    "TypeScript"
+  ],
+  "author": "m407",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m407/badtime-stories-server"
+  },
+  "license": "GPLv3",
+  "devDependencies": {
+    "openai": "^4.12.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
